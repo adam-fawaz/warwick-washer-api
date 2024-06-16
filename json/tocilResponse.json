@@ -1,0 +1,978 @@
+[
+    {
+        "id": "210883",
+        "serialNumber": "1903052754          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "12",
+        "controlId": "31535110879627008",
+        "machineGeneration": null,
+        "machineNumber": "0012",
+        "machineType": {
+            "id": "22",
+            "isDryer": true,
+            "isWasher": false,
+            "typeName": "Stack Dryer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A4",
+            "typeName": "ACAS_A4"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-11-10T12:52:17.823833",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.116214",
+        "updatedBy": null,
+        "washAlertXAxis": 202,
+        "washAlertYAxis": 393,
+        "washAlertScaleX": 5,
+        "washAlertScaleY": 5,
+        "machineName": "Machine Node - 12",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 16,
+        "machineTypeRecord": {
+            "id": "58"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31535110879627008\",\"createdAt\":\"2024-06-16T13:58:05.304000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP3+G\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"210883\",\"isDoorOpen\":false,\"linkQualityIndicator\":72,\"receivedAt\":\"2024-06-16T13:58:05.304000\",\"remainingSeconds\":3600,\"remainingVend\":180,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":4,\"name\":\"MEDIUM\"},\"selectedModifier\":{\"id\":0},\"statusId\":\"AVAILABLE\",\"topOffTime\":338,\"topOffVend\":10,\"uuid\":\"d6e7f9d6-7e53-4755-977d-b554791f3ebc\"}"
+    },
+    {
+        "id": "194368",
+        "serialNumber": "1903052752          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "13",
+        "controlId": "31527409577454597",
+        "machineGeneration": null,
+        "machineNumber": "0013",
+        "machineType": {
+            "id": "10",
+            "isDryer": false,
+            "isWasher": true,
+            "typeName": "Frontload Washer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A3",
+            "typeName": "ACAS_A3"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:27.208517",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.096512",
+        "updatedBy": null,
+        "washAlertXAxis": 260,
+        "washAlertYAxis": 479,
+        "washAlertScaleX": 7,
+        "washAlertScaleY": 7,
+        "machineName": "Machine Node - 13",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 9,
+        "machineTypeRecord": {
+            "id": "4"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31527409577454597\",\"createdAt\":\"2024-06-16T14:04:47.419000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"Zk8AAAAA\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194368\",\"isDoorOpen\":false,\"linkQualityIndicator\":71,\"receivedAt\":\"2024-06-16T14:04:47.419000\",\"remainingSeconds\":1999,\"remainingVend\":0,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":3,\"name\":\"NORMAL_40C\"},\"selectedModifier\":{\"id\":0,\"name\":\"A\"},\"statusId\":\"IN_USE\",\"topOffTime\":0,\"topOffVend\":10,\"uuid\":\"0316ad60-be25-4aba-becb-464fd061e99a\"}"
+    },
+    {
+        "id": "194367",
+        "serialNumber": "1903052753          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "10",
+        "controlId": "31535114161515525",
+        "machineGeneration": null,
+        "machineNumber": "0010",
+        "machineType": {
+            "id": "22",
+            "isDryer": true,
+            "isWasher": false,
+            "typeName": "Stack Dryer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A4",
+            "typeName": "ACAS_A4"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:18.705526",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.116311",
+        "updatedBy": null,
+        "washAlertXAxis": 138,
+        "washAlertYAxis": 392,
+        "washAlertScaleX": 5,
+        "washAlertScaleY": 5,
+        "machineName": "Machine Node - 10",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 15,
+        "machineTypeRecord": {
+            "id": "58"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31535114161515525\",\"createdAt\":\"2024-06-16T14:04:04.021000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"bWYAAAAA\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194367\",\"isDoorOpen\":false,\"linkQualityIndicator\":63,\"receivedAt\":\"2024-06-16T14:04:04.021000\",\"remainingSeconds\":2696,\"remainingVend\":0,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":2,\"name\":\"LOW\"},\"selectedModifier\":{\"id\":0},\"statusId\":\"IN_USE\",\"topOffTime\":338,\"topOffVend\":10,\"uuid\":\"601290ba-ef69-410e-8ee0-b052bb612d7d\"}"
+    },
+    {
+        "id": "194366",
+        "serialNumber": "1903052755          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "15",
+        "controlId": "31527409745226757",
+        "machineGeneration": null,
+        "machineNumber": "0015",
+        "machineType": {
+            "id": "10",
+            "isDryer": false,
+            "isWasher": true,
+            "typeName": "Frontload Washer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A3",
+            "typeName": "ACAS_A3"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:17.337278",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.081665",
+        "updatedBy": null,
+        "washAlertXAxis": 326,
+        "washAlertYAxis": 478,
+        "washAlertScaleX": 7,
+        "washAlertScaleY": 7,
+        "machineName": "Machine Node - 15",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 10,
+        "machineTypeRecord": {
+            "id": "4"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31527409745226757\",\"createdAt\":\"2024-06-16T13:07:04.881000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP0/P\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194366\",\"isDoorOpen\":true,\"linkQualityIndicator\":68,\"receivedAt\":\"2024-06-16T13:07:04.881000\",\"remainingSeconds\":2120,\"remainingVend\":330,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":3,\"name\":\"NORMAL_40C\"},\"selectedModifier\":{\"id\":0,\"name\":\"A\"},\"statusId\":\"AVAILABLE\",\"topOffTime\":0,\"topOffVend\":10,\"uuid\":\"e46e444b-87dd-470d-8586-490fcffaafe0\"}"
+    },
+    {
+        "id": "194365",
+        "serialNumber": "1807034106          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "3",
+        "controlId": "31527413148646912",
+        "machineGeneration": null,
+        "machineNumber": "0003",
+        "machineType": {
+            "id": "10",
+            "isDryer": false,
+            "isWasher": true,
+            "typeName": "Frontload Washer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A3",
+            "typeName": "ACAS_A3"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:15.252957",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.081137",
+        "updatedBy": null,
+        "washAlertXAxis": 170,
+        "washAlertYAxis": 200,
+        "washAlertScaleX": 7,
+        "washAlertScaleY": 7,
+        "machineName": "Machine Node - 3",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 4,
+        "machineTypeRecord": {
+            "id": "4"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31527413148646912\",\"createdAt\":\"2024-06-16T14:04:03.148000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP0/P\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194365\",\"isDoorOpen\":true,\"linkQualityIndicator\":73,\"receivedAt\":\"2024-06-16T14:04:03.148000\",\"remainingSeconds\":2120,\"remainingVend\":330,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":3,\"name\":\"NORMAL_40C\"},\"selectedModifier\":{\"id\":0,\"name\":\"A\"},\"statusId\":\"AVAILABLE\",\"topOffTime\":0,\"topOffVend\":10,\"uuid\":\"450cb72a-15cc-4385-bb8f-9b0500128609\"}"
+    },
+    {
+        "id": "194364",
+        "serialNumber": "1807016354          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "5",
+        "controlId": "31527412471003904",
+        "machineGeneration": null,
+        "machineNumber": "0005",
+        "machineType": {
+            "id": "10",
+            "isDryer": false,
+            "isWasher": true,
+            "typeName": "Frontload Washer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A3",
+            "typeName": "ACAS_A3"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:14.747708",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.096665",
+        "updatedBy": null,
+        "washAlertXAxis": 234,
+        "washAlertYAxis": 200,
+        "washAlertScaleX": 7,
+        "washAlertScaleY": 7,
+        "machineName": "Machine Node - 5",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 5,
+        "machineTypeRecord": {
+            "id": "4"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31527412471003904\",\"createdAt\":\"2024-06-16T13:44:11.567000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP0/P\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194364\",\"isDoorOpen\":false,\"linkQualityIndicator\":90,\"receivedAt\":\"2024-06-16T13:44:11.567000\",\"remainingSeconds\":2120,\"remainingVend\":330,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":3,\"name\":\"NORMAL_40C\"},\"selectedModifier\":{\"id\":0,\"name\":\"A\"},\"statusId\":\"AVAILABLE\",\"topOffTime\":0,\"topOffVend\":10,\"uuid\":\"3407b392-fbf7-4874-8cae-dc4e63bd02c5\"}"
+    },
+    {
+        "id": "194363",
+        "serialNumber": "1903052754          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "11",
+        "controlId": "31527412546956293",
+        "machineGeneration": null,
+        "machineNumber": "0011",
+        "machineType": {
+            "id": "10",
+            "isDryer": false,
+            "isWasher": true,
+            "typeName": "Frontload Washer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A3",
+            "typeName": "ACAS_A3"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:12.975772",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.096272",
+        "updatedBy": null,
+        "washAlertXAxis": 193,
+        "washAlertYAxis": 479,
+        "washAlertScaleX": 7,
+        "washAlertScaleY": 7,
+        "machineName": "Machine Node - 11",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 8,
+        "machineTypeRecord": {
+            "id": "4"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31527412546956293\",\"createdAt\":\"2024-06-16T13:39:03.608000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP0/P\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194363\",\"isDoorOpen\":true,\"linkQualityIndicator\":85,\"receivedAt\":\"2024-06-16T13:39:03.608000\",\"remainingSeconds\":2120,\"remainingVend\":330,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":3,\"name\":\"NORMAL_40C\"},\"selectedModifier\":{\"id\":0,\"name\":\"A\"},\"statusId\":\"AVAILABLE\",\"topOffTime\":0,\"topOffVend\":10,\"uuid\":\"3234949e-20c4-48a3-a85d-8a096be2456f\"}"
+    },
+    {
+        "id": "194362",
+        "serialNumber": "1903052752          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "14",
+        "controlId": "31535111124904965",
+        "machineGeneration": null,
+        "machineNumber": "0014",
+        "machineType": {
+            "id": "22",
+            "isDryer": true,
+            "isWasher": false,
+            "typeName": "Stack Dryer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A4",
+            "typeName": "ACAS_A4"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:11.766118",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.118773",
+        "updatedBy": null,
+        "washAlertXAxis": 271,
+        "washAlertYAxis": 392,
+        "washAlertScaleX": 5,
+        "washAlertScaleY": 5,
+        "machineName": "Machine Node - 14",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 17,
+        "machineTypeRecord": {
+            "id": "58"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31535111124904965\",\"createdAt\":\"2024-06-16T14:04:04.305000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000,1000,1000],\"values\":[\"AABUeXNc\",\"AABQXFxe\",\"Pz8AAAAA\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194362\",\"isDoorOpen\":false,\"linkQualityIndicator\":84,\"receivedAt\":\"2024-06-16T14:04:04.305000\",\"remainingSeconds\":3227,\"remainingVend\":0,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":4,\"name\":\"MEDIUM\"},\"selectedModifier\":{\"id\":0},\"statusId\":\"COMPLETE\",\"topOffTime\":338,\"topOffVend\":10,\"uuid\":\"a3e57858-0a5e-4047-83e7-9e873f6bd7cf\"}"
+    },
+    {
+        "id": "194361",
+        "serialNumber": "1903052753          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "9",
+        "controlId": "31527413436148741",
+        "machineGeneration": null,
+        "machineNumber": "0009",
+        "machineType": {
+            "id": "10",
+            "isDryer": false,
+            "isWasher": true,
+            "typeName": "Frontload Washer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A3",
+            "typeName": "ACAS_A3"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:11.685611",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.081202",
+        "updatedBy": null,
+        "washAlertXAxis": 126,
+        "washAlertYAxis": 479,
+        "washAlertScaleX": 7,
+        "washAlertScaleY": 7,
+        "machineName": "Machine Node - 9",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 7,
+        "machineTypeRecord": {
+            "id": "4"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31527413436148741\",\"createdAt\":\"2024-06-16T14:04:44.243000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"Zk8AAAAA\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194361\",\"isDoorOpen\":false,\"linkQualityIndicator\":80,\"receivedAt\":\"2024-06-16T14:04:44.243000\",\"remainingSeconds\":2033,\"remainingVend\":0,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":3,\"name\":\"NORMAL_40C\"},\"selectedModifier\":{\"id\":0,\"name\":\"A\"},\"statusId\":\"IN_USE\",\"topOffTime\":0,\"topOffVend\":10,\"uuid\":\"0297b220-9263-49c3-b618-6485d24693c4\"}"
+    },
+    {
+        "id": "194360",
+        "serialNumber": "1903052751          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "8",
+        "controlId": "31535111754574597",
+        "machineGeneration": null,
+        "machineNumber": "0008",
+        "machineType": {
+            "id": "22",
+            "isDryer": true,
+            "isWasher": false,
+            "typeName": "Stack Dryer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A4",
+            "typeName": "ACAS_A4"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:11.597287",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.11608",
+        "updatedBy": null,
+        "washAlertXAxis": 71,
+        "washAlertYAxis": 392,
+        "washAlertScaleX": 5,
+        "washAlertScaleY": 5,
+        "machineName": "Machine Node - 8",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 14,
+        "machineTypeRecord": {
+            "id": "58"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31535111754574597\",\"createdAt\":\"2024-06-16T14:04:03.050000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"BmYAAAAA\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194360\",\"isDoorOpen\":false,\"linkQualityIndicator\":73,\"receivedAt\":\"2024-06-16T14:04:03.050000\",\"remainingSeconds\":2428,\"remainingVend\":0,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":4,\"name\":\"MEDIUM\"},\"selectedModifier\":{\"id\":0},\"statusId\":\"IN_USE\",\"topOffTime\":338,\"topOffVend\":10,\"uuid\":\"316e65f8-cc40-4f9b-a1de-104c450ff354\"}"
+    },
+    {
+        "id": "194359",
+        "serialNumber": "1903052751          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "7",
+        "controlId": "31527413234822149",
+        "machineGeneration": null,
+        "machineNumber": "0007",
+        "machineType": {
+            "id": "10",
+            "isDryer": false,
+            "isWasher": true,
+            "typeName": "Frontload Washer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A3",
+            "typeName": "ACAS_A3"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:04.923919",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.081102",
+        "updatedBy": null,
+        "washAlertXAxis": 60,
+        "washAlertYAxis": 479,
+        "washAlertScaleX": 7,
+        "washAlertScaleY": 7,
+        "machineName": "Machine Node - 7",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 6,
+        "machineTypeRecord": {
+            "id": "4"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31527413234822149\",\"createdAt\":\"2024-06-16T13:43:38.478000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP0/P\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194359\",\"isDoorOpen\":false,\"linkQualityIndicator\":60,\"receivedAt\":\"2024-06-16T13:43:38.478000\",\"remainingSeconds\":2120,\"remainingVend\":330,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":3,\"name\":\"NORMAL_40C\"},\"selectedModifier\":{\"id\":0,\"name\":\"A\"},\"statusId\":\"AVAILABLE\",\"topOffTime\":0,\"topOffVend\":10,\"uuid\":\"2a901571-f5dc-4f5f-bb64-4fd834c15981\"}"
+    },
+    {
+        "id": "194358",
+        "serialNumber": "1807016354          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "6",
+        "controlId": "31535111233239808",
+        "machineGeneration": null,
+        "machineNumber": "0006",
+        "machineType": {
+            "id": "22",
+            "isDryer": true,
+            "isWasher": false,
+            "typeName": "Stack Dryer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A4",
+            "typeName": "ACAS_A4"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:03.587504",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.115983",
+        "updatedBy": null,
+        "washAlertXAxis": 247,
+        "washAlertYAxis": 111,
+        "washAlertScaleX": 6,
+        "washAlertScaleY": 6,
+        "machineName": "Machine Node - 6",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 13,
+        "machineTypeRecord": {
+            "id": "58"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31535111233239808\",\"createdAt\":\"2024-06-16T13:39:59.311000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP3+G\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194358\",\"isDoorOpen\":true,\"linkQualityIndicator\":91,\"receivedAt\":\"2024-06-16T13:39:59.311000\",\"remainingSeconds\":3600,\"remainingVend\":180,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":4,\"name\":\"MEDIUM\"},\"selectedModifier\":{\"id\":0},\"statusId\":\"AVAILABLE\",\"topOffTime\":338,\"topOffVend\":10,\"uuid\":\"701ec165-b8f6-4a9c-a15d-e2c6427f738f\"}"
+    },
+    {
+        "id": "194357",
+        "serialNumber": "1903052755          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "16",
+        "controlId": "31535114346064901",
+        "machineGeneration": null,
+        "machineNumber": "0016",
+        "machineType": {
+            "id": "22",
+            "isDryer": true,
+            "isWasher": false,
+            "typeName": "Stack Dryer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A4",
+            "typeName": "ACAS_A4"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:02.310332",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.238213",
+        "updatedBy": null,
+        "washAlertXAxis": 339,
+        "washAlertYAxis": 392,
+        "washAlertScaleX": 5,
+        "washAlertScaleY": 5,
+        "machineName": "Machine Node - 16",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 18,
+        "machineTypeRecord": {
+            "id": "58"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31535114346064901\",\"createdAt\":\"2024-06-16T13:44:05.382000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP3+G\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194357\",\"isDoorOpen\":true,\"linkQualityIndicator\":84,\"receivedAt\":\"2024-06-16T13:44:05.382000\",\"remainingSeconds\":3600,\"remainingVend\":180,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":4,\"name\":\"MEDIUM\"},\"selectedModifier\":{\"id\":0},\"statusId\":\"AVAILABLE\",\"topOffTime\":338,\"topOffVend\":10,\"uuid\":\"d6e139ec-9da9-42fa-bf61-f369f00d210b\"}"
+    },
+    {
+        "id": "194356",
+        "serialNumber": "1807034106          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "4",
+        "controlId": "31535113974676992",
+        "machineGeneration": null,
+        "machineNumber": "0004",
+        "machineType": {
+            "id": "22",
+            "isDryer": true,
+            "isWasher": false,
+            "typeName": "Stack Dryer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A4",
+            "typeName": "ACAS_A4"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:33:00.901888",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.115898",
+        "updatedBy": null,
+        "washAlertXAxis": 180,
+        "washAlertYAxis": 112,
+        "washAlertScaleX": 6,
+        "washAlertScaleY": 6,
+        "machineName": "Machine Node - 4",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 12,
+        "machineTypeRecord": {
+            "id": "58"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31535113974676992\",\"createdAt\":\"2024-06-16T13:29:03.333000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP3+G\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194356\",\"isDoorOpen\":false,\"linkQualityIndicator\":65,\"receivedAt\":\"2024-06-16T13:29:03.333000\",\"remainingSeconds\":3600,\"remainingVend\":180,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":4,\"name\":\"MEDIUM\"},\"selectedModifier\":{\"id\":0},\"statusId\":\"AVAILABLE\",\"topOffTime\":338,\"topOffVend\":10,\"uuid\":\"aa291e44-658c-479f-94f1-fdb935bf054c\"}"
+    },
+    {
+        "id": "194355",
+        "serialNumber": "1807030721          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "2",
+        "controlId": "31535112397880832",
+        "machineGeneration": null,
+        "machineNumber": "0002",
+        "machineType": {
+            "id": "22",
+            "isDryer": true,
+            "isWasher": false,
+            "typeName": "Stack Dryer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A4",
+            "typeName": "ACAS_A4"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:32:59.836788",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.096372",
+        "updatedBy": null,
+        "washAlertXAxis": 113,
+        "washAlertYAxis": 112,
+        "washAlertScaleX": 6,
+        "washAlertScaleY": 6,
+        "machineName": "Machine Node - 2",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 11,
+        "machineTypeRecord": {
+            "id": "58"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31535112397880832\",\"createdAt\":\"2024-06-16T13:55:02.783000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP3+G\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194355\",\"isDoorOpen\":false,\"linkQualityIndicator\":80,\"receivedAt\":\"2024-06-16T13:55:02.783000\",\"remainingSeconds\":3600,\"remainingVend\":180,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":4,\"name\":\"MEDIUM\"},\"selectedModifier\":{\"id\":0},\"statusId\":\"AVAILABLE\",\"topOffTime\":338,\"topOffVend\":10,\"uuid\":\"5eadfeee-3d2d-4ab7-b03b-4b2bcbd97131\"}"
+    },
+    {
+        "id": "194354",
+        "serialNumber": "1807030721          ",
+        "modelNumber": "ST1JXASP403EW06     ",
+        "networkController": null,
+        "networkNode": "1",
+        "controlId": "31527410649103872",
+        "machineGeneration": null,
+        "machineNumber": "0001",
+        "machineType": {
+            "id": "10",
+            "isDryer": false,
+            "isWasher": true,
+            "typeName": "Frontload Washer"
+        },
+        "organization": {
+            "id": "652210",
+            "organizationName": "University of Warwick",
+            "userRoleType": {
+                "id": "ORGANIZATION_FRANCHISE_OWNER"
+            }
+        },
+        "room": {
+            "id": "7907",
+            "roomName": "University of Warwick: Tocil"
+        },
+        "machineAuditType": {
+            "id": "ACAS_A3",
+            "typeName": "ACAS_A3"
+        },
+        "installedDate": null,
+        "lastCollectionDate": null,
+        "lastProcessedDate": null,
+        "isActive": true,
+        "createdAt": "2022-09-07T12:32:43.122502",
+        "createdBy": 2,
+        "updatedAt": "2022-12-05T11:15:16.080945",
+        "updatedBy": null,
+        "washAlertXAxis": 100,
+        "washAlertYAxis": 200,
+        "washAlertScaleX": 7,
+        "washAlertScaleY": 7,
+        "machineName": "Machine Node - 1",
+        "machineAuditGroupType": {
+            "id": "QUANTUM_GOLD+",
+            "typeName": "Quantum Gold+"
+        },
+        "washAlertAngle": 0,
+        "washAlertIsVisible": true,
+        "machineNote": null,
+        "coinVaultSize": 400,
+        "lastKnownProgram": null,
+        "lastKnownProgramUpdatedAt": null,
+        "washAlertZIndex": 3,
+        "machineTypeRecord": {
+            "id": "4"
+        },
+        "guid": null,
+        "isExternal": false,
+        "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31527410649103872\",\"createdAt\":\"2024-06-16T13:48:03.206000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP0/P\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"194354\",\"isDoorOpen\":true,\"linkQualityIndicator\":71,\"receivedAt\":\"2024-06-16T13:48:03.206000\",\"remainingSeconds\":2120,\"remainingVend\":330,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":3,\"name\":\"NORMAL_40C\"},\"selectedModifier\":{\"id\":0,\"name\":\"A\"},\"statusId\":\"AVAILABLE\",\"topOffTime\":0,\"topOffVend\":10,\"uuid\":\"4d6f3c3b-c00a-49e2-abdb-7a2327a00ff8\"}"
+    }
+]
