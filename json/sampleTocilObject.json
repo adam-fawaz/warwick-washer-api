@@ -1,0 +1,61 @@
+{
+    "id": "210883",
+    "serialNumber": "1903052754          ",
+    "modelNumber": "ST1JXASP403EW06     ",
+    "networkController": null,
+    "networkNode": "12",
+    "controlId": "31535110879627008",
+    "machineGeneration": null,
+    "machineNumber": "0012",
+    "machineType": {
+        "id": "22",
+        "isDryer": true,
+        "isWasher": false,
+        "typeName": "Stack Dryer"
+    },
+    "organization": {
+        "id": "652210",
+        "organizationName": "University of Warwick",
+        "userRoleType": {
+            "id": "ORGANIZATION_FRANCHISE_OWNER"
+        }
+    },
+    "room": {
+        "id": "7907",
+        "roomName": "University of Warwick: Tocil"
+    },
+    "machineAuditType": {
+        "id": "ACAS_A4",
+        "typeName": "ACAS_A4"
+    },
+    "installedDate": null,
+    "lastCollectionDate": null,
+    "lastProcessedDate": null,
+    "isActive": true,
+    "createdAt": "2022-11-10T12:52:17.823833",
+    "createdBy": 2,
+    "updatedAt": "2022-12-05T11:15:16.116214",
+    "updatedBy": null,
+    "washAlertXAxis": 202,
+    "washAlertYAxis": 393,
+    "washAlertScaleX": 5,
+    "washAlertScaleY": 5,
+    "machineName": "Machine Node - 12",
+    "machineAuditGroupType": {
+        "id": "QUANTUM_GOLD+",
+        "typeName": "Quantum Gold+"
+    },
+    "washAlertAngle": 0,
+    "washAlertIsVisible": true,
+    "machineNote": null,
+    "coinVaultSize": 400,
+    "lastKnownProgram": null,
+    "lastKnownProgramUpdatedAt": null,
+    "washAlertZIndex": 16,
+    "machineTypeRecord": {
+        "id": "58"
+    },
+    "guid": null,
+    "isExternal": false,
+    "currentStatus": "{\"canTopOff\":false,\"controlId\":\"31535110879627008\",\"createdAt\":\"2024-06-16T13:58:05.304000\",\"displayStatus\":{\"id\":\"0\",\"times\":[1000],\"values\":[\"AAAAP3+G\"]},\"gatewayName\":\"ca5ac27cb9304ceb89ae064f6f1e8380\",\"id\":\"210883\",\"isDoorOpen\":false,\"linkQualityIndicator\":72,\"receivedAt\":\"2024-06-16T13:58:05.304000\",\"remainingSeconds\":3600,\"remainingVend\":180,\"roomId\":\"7907\",\"selectedCycle\":{\"id\":4,\"name\":\"MEDIUM\"},\"selectedModifier\":{\"id\":0},\"statusId\":\"AVAILABLE\",\"topOffTime\":338,\"topOffVend\":10,\"uuid\":\"d6e7f9d6-7e53-4755-977d-b554791f3ebc\"}"
+}

@@ -12,5 +12,37 @@ room_data = {"ww_arden": 7894, "ww_bericote": 9269, "ww_compton": 9271, "ww_duns
 response = requests.get(f'https://api.alliancelslabs.com/washAlert/machines/{room_data["tocil"]}', headers=headers)
 
 data = response.json()
-json_string = json.dumps(data, indent=4)
-print(json_string)
+
+roomName = data[0]['room']['roomName']
+
+# List of attributes to remove
+attributes_to_remove = ["id", "serialNumber", "modelNumber", "networkController", "networkNode", "controlId", "machineGeneration", "organization", "room", "machineAuditType", "installedDate", "lastCollectionDate", "lastProcessedDate", "createdAt", "createdBy", "updatedAt", "updatedBy", "washAlertXAxis", "washAlertYAxis", "washAlertScaleX", "washAlertScaleY", "machineName", "machineAuditGroupType", "washAlertAngle", "washAlertIsVisible", "machineNote", "coinVaultSize", "lastKnownProgram", "lastKnownProgramUpdatedAt", "washAlertZIndex", "machineTypeRecord", "guid", "isExternal"]
+
+current_status_attributes_to_remove = ['canTopOff', 'controlId', 'createdAt', 'displayStatus', 'gatewayName', 'id', 'linkQualityIndicator', 'receivedAt', 'roomId', 'selectedModifier', 'topOffTime', 'topOffVend', 'uuid']
+
+
+# Iterate through each object and remove the specified attributes
+for obj in data:
+    for attribute in attributes_to_remove:
+        if attribute in obj:
+            del obj[attribute]
+
+    if "machineNumber" in obj:
+        obj["machineNumber"] = int(obj["machineNumber"])
+
+    if "machineType" in obj and "id" in obj["machineType"]:
+        del obj["machineType"]["id"]
+
+    if "currentStatus" in obj:
+        obj["currentStatus"] = json.loads(obj["currentStatus"])
+
+        # Remove the specified attributes from currentStatus
+        for attribute in current_status_attributes_to_remove:
+            if attribute in obj["currentStatus"]:
+                del obj["currentStatus"][attribute]
+
+# Convert modified data back to JSON format if needed
+modified_json_data = json.dumps(data, indent=4)
+
+print(roomName, len(data))
+print(modified_json_data)
