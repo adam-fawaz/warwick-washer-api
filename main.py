@@ -21,6 +21,9 @@ attributes_to_remove = ["id", "serialNumber", "modelNumber", "networkController"
 current_status_attributes_to_remove = ['canTopOff', 'controlId', 'createdAt', 'displayStatus', 'gatewayName', 'id', 'linkQualityIndicator', 'receivedAt', 'roomId', 'selectedModifier', 'topOffTime', 'topOffVend', 'uuid']
 
 
+# Create a new dictionary to hold the modified data
+modified_data = {}
+
 # Iterate through each object and remove the specified attributes
 for obj in data:
     for attribute in attributes_to_remove:
@@ -28,7 +31,8 @@ for obj in data:
             del obj[attribute]
 
     if "machineNumber" in obj:
-        obj["machineNumber"] = int(obj["machineNumber"])
+        machine_number = obj["machineNumber"]
+        obj["machineNumber"] = int(machine_number)
 
     if "machineType" in obj and "id" in obj["machineType"]:
         del obj["machineType"]["id"]
@@ -41,8 +45,11 @@ for obj in data:
             if attribute in obj["currentStatus"]:
                 del obj["currentStatus"][attribute]
 
+    # Add the modified object to the new dictionary with machineNumber as the key
+    modified_data[int(machine_number)] = obj
+
 # Convert modified data back to JSON format if needed
-modified_json_data = json.dumps(data, indent=4)
+modified_json_data = json.dumps(modified_data, indent=4)
 
 print(roomName, len(data))
 print(modified_json_data)

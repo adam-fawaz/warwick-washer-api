@@ -1,19 +1,21 @@
 {
-  "machineNumber": 12,
-  "machineType": {
-    "isDryer": true,
-    "isWasher": false,
-    "typeName": "Stack Dryer"
-  },
-  "isActive": true,
-  "currentStatus": { 
-    "isDoorOpen": false,
-    "remainingSeconds": 3600,
-    "remainingVend": 180,
-    "selectedCycle": {
-      "id": 4,
-      "name": "MEDIUM"
+  "12": {
+    "machineNumber": 12,
+    "machineType": {
+      "isDryer": true,
+      "isWasher": false,
+      "typeName": "Stack Dryer"
     },
-    "statusId": "AVAILABLE",
+    "isActive": true,
+    "currentStatus": {
+      "isDoorOpen": false,
+      "remainingSeconds": 3600,
+      "remainingVend": 180,
+      "selectedCycle": {
+        "id": 4,
+        "name": "MEDIUM"
+      },
+      "statusId": "AVAILABLE"
+    }
   }
 }
