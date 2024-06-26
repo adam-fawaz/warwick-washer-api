@@ -6,7 +6,7 @@ At the University of Warwick, the washing and drying services are outsourced to 
 
 ## Existing API?
 Currently the website seems to be pulling data in real time from some form of data source. To find this source, open `Developer Tools` on Safari and navigate to the `Sources` section. A simple page refresh reveals some form of API of return type JSON. You can find an example reponse in the file [tocilResponse.json](/json/tocilResponse.json). The next steps are to copy the cURL of this request and implement it in Python. My tool of choice is [curlconverter](https://curlconverter.com/python/), and the template it gave me was the following:
-'''
+```python
 import requests
 
 headers = {
@@ -25,4 +25,4 @@ headers = {
 }
 
 response = requests.get('https://api.alliancelslabs.com/washAlert/machines/7907', headers=headers)
-'''
+```
