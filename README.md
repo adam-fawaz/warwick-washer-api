@@ -47,6 +47,13 @@ This request is specific to Tocil. For our final API, we would like to be able t
 | Alias                  | ww_arden       | ww_bericote       | ww_compton       | ww_dunsmere       | ww_emscote       | ww_feldon       | ww_gosford       | ww_hampton       | ww_kinghtcote       | ww_loxley       | av_1          | av_2          | av_3          | bf_1          | bf_2          | bb_1       | bb_2       | bb_3       | bb_4       | cc_1        | cc_2        | cc_3        | cryfield          | hb_east        | hb_west        | int_house           | jm_3          | ls_1       | ls_4       | sb_1         | sb_5         | sb_7         | tocil |
 | Value                  | 7894           | 9269              | 9271             | 9267              | 9268             | 7896            | 9270             | 9276             | 9275                | 9273            | 9274          | 9272          | 9354          | 7900          | 7901          | 7903       | 9373       | 7904       | 7905       | 7908        | 7895        | 9353        | 9351             | 7899           | 9352           | 7902                | 7906          | 7897       | 7898       | 5982         | 5981         | 5983         | 7907  |
 
-
+In the code, this is represented as the following dictionary:
+```python
+room_data = {"ww_arden": 7894, "ww_bericote": 9269, "ww_compton": 9271, "ww_dunsmere": 9267, "ww_emscote": 9268, "ww_feldon": 7896, "ww_gosford": 9270, "ww_hampton": 9276, "ww_kinghtcote": 9275, "ww_loxley": 9273, "av_1": 9274, "av_2": 9272, "av_3": 9354, "bf_1": 7900, "bf_2": 7901, "bb_1": 7903, "bb_2": 9373, "bb_3": 7904, "bb_4": 7905, "cc_1": 7908, "cc_2": 7895, "cc_3": 9353, "cryfield": 9351, "hb_east": 7899, "hb_west": 9352, "int_house": 7902, "jm_3": 7906, "ls_1": 7897, "ls_4": 7898, "sb_1": 5982, "sb_5": 5981, "sb_7": 5983, "tocil": 7907}
+```
+This allows for requests to be made using a simpler, less obfuscated, alias as opposed to a random number. Now requests look something like:
+```python
+response = requests.get(f'https://api.alliancelslabs.com/washAlert/machines/{room_data[key]}', headers=headers)
+```
 
 
