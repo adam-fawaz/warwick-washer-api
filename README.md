@@ -39,3 +39,44 @@ headers = {
 
 response = requests.get('https://api.alliancelslabs.com/washAlert/machines/7907', headers=headers)
 ```
+
+This request is specific to Tocil. For our final API, we would like to be able to pass some short form alias and get a room-specific response. The numbering or rooms is rather unintuitive, so I manually found each room number from the original websites URLs. These can be found in the following table:
+
+|Room Name            | Alias         | Value |
+|---------------------|---------------|-------|
+| Westwood Arden      | ww_arden      | 7894  |
+| Westwood Bericote   | ww_bericote   | 9269  |
+| Westwood Compton    | ww_compton    | 9271  |
+| Westwood Dunsmere   | ww_dunsmere   | 9267  |
+| Westwood Emscote    | ww_emscote    | 9268  |
+| Westwood Feldon     | ww_feldon     | 7896  |
+| Westwood Gosford    | ww_gosford    | 9270  |
+| Westwood Hampton    | ww_hampton    | 9276  |
+| Westwood Kinghtcote | ww_kinghtcote | 9275  |
+| Westwood Loxley     | ww_loxley     | 9273  |
+| Arthur Vick 1       | av_1          | 9274  |
+| Arthur Vick 2       | av_2          | 9272  |
+| Arthur Vick 3       | av_3          | 9354  |
+| Benefactors 1       | bf_1          | 7900  |
+| Benefactors 2       | bf_2          | 7901  |
+| Bluebell 1          | bb_1          | 7903  |
+| Bluebell 2          | bb_2          | 9373  |
+| Bluebell 3          | bb_3          | 7904  |
+| Bluebell 4          | bb_4          | 7905  |
+| Claycroft 1         | cc_1          | 7908  |
+| Claycroft 2         | cc_2          | 7895  |
+| Claycroft 3         | cc_3          | 9353  |
+| Cryfield Village    | cryfield      | 9351  |
+| Heronbank East      | hb_east       | 7899  |
+| Heronbank West      | hb_west       | 9352  |
+| International House | int_house     | 7902  |
+| Jack Martin 3       | jm_3          | 7906  |
+| Lakeside 1          | ls_1          | 7897  |
+| Lakeside 4          | ls_4          | 7898  |
+| Sherbourne 1        | sb_1          | 5982  |
+| Sherbourne 5        | sb_5          | 5981  |
+| Sherbourne 7        | sb_7          | 5983  |
+| Tocil               | tocil         | 7907  |
+
+
+
