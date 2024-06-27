@@ -56,4 +56,73 @@ This allows for requests to be made in the following, simpler way:
 response = requests.get(f'https://api.alliancelslabs.com/washAlert/machines/{room_data[key]}', headers=headers)
 ```
 
+## Cleansing the Response
+If we take a look at the sample reponse from earlier ([tocilResponse.json](/json/tocilResponse.json)), it is clear that there are two main issues which we should address:
+1. __Unnecessary additional data:__ We want to keep the API as simple as possible; there is no need to know the majority of the properties provided in the response such as `"serialNumber"` or `"controlId"`. Also the response contains information which we already know, for example the whole `"organization"` sub-object tells us the name of the university and the room identifier; these are parameters which we already know (we used them to make the request).
+2. __Inconsistent formatting:__ The entire `"currentStatus"` property is formatted as a type string, however it's supposed to be JSON. (It even seems to have some sort of newline formatting as well).
 
+To address both of these issues, I created an array with the names of all properties which are to be removed from the returned JSON. This array has variable name `attributes_to_remove` and there exists a similar array for the properties we don't need from `"currentStatus"` with variable name `current_status_attributes_to_remove`. Note that it is first neccessary to interpret `"currentStatus"` as JSON rather than text. This is done with the following snippet:
+```python
+json.loads(obj["currentStatus"])
+```
+
+### Keys with meaning
+Up until now, we have gone over removing and interpreting properties within the response correctly. The next step is to place each object (machine) under a meaningful key. Logically, the key to use should be the machine number. This would help for future uses of this API wrapper in specific applications, say if you want to parse the JSON for a specific machine. To do this, we can use the following code:
+```python
+modified_data = {}
+
+for obj in data:
+
+    # relevant logic
+
+    modified_data[int(machine_number)] = obj
+
+modified_json_data = json.dumps(modified_data, indent=4)
+```
+
+This will mean that the JSON data is fromatted as follows:
+```
+{
+  "12": {
+    "machineNumber": 12,
+    ...
+  }
+  ...
+}
+```
+You can find a full-form example in the file [sampleCleansedTocilObject.json](/json/sampleCleansedTocilObject.json).
+
+## Usage
+To test out the wrapper yourself, clone the repository and run `main.py` ensuring to pass the room alias in `room_data[room_alias]}`. In my code, I have left Tocil as an example.
+
+### Ideas
+If you are interested in using this API, here are some ideas where you could apply it:
+- Build a (better) web app to display the data
+- Build an email/sms service to get machine availability
+- Build an iOS app using Swift/SwiftUI to display the data (this is what I'm working on!)
+
+### Flask Example
+In case you want to host this API wrapper on a web server, check out the example of how I did it using flask. The code can be found in [flask-example.py](/flask-example.py).
+
+An example call to an endpoint would look like `/washer?room=tocil&machine_number=1`. And the response, something like:
+```JSON
+{
+   "currentStatus":{
+      "isDoorOpen":false,
+      "remainingSeconds":2120,
+      "remainingVend":330,
+      "selectedCycle":{
+         "id":3,
+         "name":"NORMAL_40C"
+      },
+      "statusId":"AVAILABLE"
+   },
+   "isActive":true,
+   "machineNumber":1,
+   "machineType":{
+      "isDryer":false,
+      "isWasher":true,
+      "typeName":"Frontload Washer"
+   }
+}
+```
