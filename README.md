@@ -26,7 +26,7 @@ headers = {
 
 response = requests.get('https://api.alliancelslabs.com/washAlert/machines/7907', headers=headers)
 ```
-If we run this and print the response, we get the expected JSON response!
+If we run this and print the response, we get the expected JSON!
 
 ### Cleansing the request
 After some trial and error, I found that all of the parameters used in the header but `'alliancels-organization-id'` are useless. Therefore the code can be simply reduced to the following:
