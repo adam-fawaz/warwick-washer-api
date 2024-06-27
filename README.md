@@ -67,7 +67,7 @@ json.loads(obj["currentStatus"])
 ```
 
 ### Keys with meaning
-Up until now, we have gone over removing and interpreting properties within the response correctly. The next step is to place each object (machine) under a meaningful key. Logically, the key to use should be the machine number. This would help for future uses of this API wrapper in specific applications, say if you want to parse the JSON for a specific machine. To do this, we can use the following code:
+Up until now, we have gone over removing and casting properties within the response correctly. The next step is to place each object (machine) under a meaningful key. Logically, the key to use should be the machine number. This would help for future uses of this API wrapper in specific applications, say if you want to parse the JSON for a specific machine. To do this, we can use the following code:
 ```python
 modified_data = {}
 
