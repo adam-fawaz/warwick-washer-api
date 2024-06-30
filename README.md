@@ -93,7 +93,7 @@ This will mean that the JSON data is fromatted as follows:
 You can find a full-form example in the file [sampleCleansedTocilObject.json](/json/sampleCleansedTocilObject.json).
 
 ## Usage
-To test out the wrapper yourself, clone the repository and run `main.py` ensuring to pass the room alias in `room_data[room_alias]}`. In my code, I have left Tocil as an example.
+To test out the wrapper yourself, clone the repository and run `main.py` ensuring to pass the room alias in `room_data[room_alias]`. In my code, I have left Tocil as an example.
 
 ### Ideas
 If you are interested in using this API, here are some ideas where you could apply it:
